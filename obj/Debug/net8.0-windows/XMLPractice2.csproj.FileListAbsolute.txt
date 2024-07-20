@@ -1,0 +1,16 @@
+C:\Users\enosh.tsur\source\repos\XMLPractice2\XMLPractice2\bin\Debug\net8.0-windows\XMLPractice2.exe
+C:\Users\enosh.tsur\source\repos\XMLPractice2\XMLPractice2\bin\Debug\net8.0-windows\XMLPractice2.deps.json
+C:\Users\enosh.tsur\source\repos\XMLPractice2\XMLPractice2\bin\Debug\net8.0-windows\XMLPractice2.runtimeconfig.json
+C:\Users\enosh.tsur\source\repos\XMLPractice2\XMLPractice2\bin\Debug\net8.0-windows\XMLPractice2.dll
+C:\Users\enosh.tsur\source\repos\XMLPractice2\XMLPractice2\bin\Debug\net8.0-windows\XMLPractice2.pdb
+C:\Users\enosh.tsur\source\repos\XMLPractice2\XMLPractice2\obj\Debug\net8.0-windows\XMLPractice2.Form1.resources
+C:\Users\enosh.tsur\source\repos\XMLPractice2\XMLPractice2\obj\Debug\net8.0-windows\XMLPractice2.csproj.GenerateResource.cache
+C:\Users\enosh.tsur\source\repos\XMLPractice2\XMLPractice2\obj\Debug\net8.0-windows\XMLPractice2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\enosh.tsur\source\repos\XMLPractice2\XMLPractice2\obj\Debug\net8.0-windows\XMLPractice2.AssemblyInfoInputs.cache
+C:\Users\enosh.tsur\source\repos\XMLPractice2\XMLPractice2\obj\Debug\net8.0-windows\XMLPractice2.AssemblyInfo.cs
+C:\Users\enosh.tsur\source\repos\XMLPractice2\XMLPractice2\obj\Debug\net8.0-windows\XMLPractice2.csproj.CoreCompileInputs.cache
+C:\Users\enosh.tsur\source\repos\XMLPractice2\XMLPractice2\obj\Debug\net8.0-windows\XMLPractice2.dll
+C:\Users\enosh.tsur\source\repos\XMLPractice2\XMLPractice2\obj\Debug\net8.0-windows\refint\XMLPractice2.dll
+C:\Users\enosh.tsur\source\repos\XMLPractice2\XMLPractice2\obj\Debug\net8.0-windows\XMLPractice2.pdb
+C:\Users\enosh.tsur\source\repos\XMLPractice2\XMLPractice2\obj\Debug\net8.0-windows\XMLPractice2.genruntimeconfig.cache
+C:\Users\enosh.tsur\source\repos\XMLPractice2\XMLPractice2\obj\Debug\net8.0-windows\ref\XMLPractice2.dll
