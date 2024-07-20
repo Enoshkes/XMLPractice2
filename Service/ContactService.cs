@@ -70,5 +70,44 @@ namespace XMLPractice2.Service
                     phone: node.Element("Phone")?.Value ?? string.Empty
                 ))
                 .ToImmutableList() ?? [];
+
+        public static ImmutableList<Contact> AddContactX(Contact newContact)
+        {
+            var document = XDocument.Load(XmlFilePath);
+
+            document.Root?.Add(
+                new XElement("Contact",
+                    new XElement("Name", newContact.Name),
+                    new XElement("Phone", newContact.Phone)
+                )
+            );
+
+            document.Save(XmlFilePath);
+
+            return GetAllContacts();
+        }
+
+        public static ImmutableList<Contact> AddContactY(Contact newContact)
+        {
+            var document = XDocument.Load(XmlFilePath);
+
+            var root = document.Descendants("Contacts").FirstOrDefault();
+
+            if (root == null)
+            {
+                return [];
+            }
+
+            root.Add(
+                new XElement("Contact",
+                    new XElement("Name", newContact.Name),
+                    new XElement("Phone", newContact.Phone)
+                )
+            );
+
+            document.Save(XmlFilePath);
+
+            return GetAllContacts();
+        }
     }
 }

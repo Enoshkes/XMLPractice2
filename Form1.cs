@@ -45,7 +45,7 @@ namespace XMLPractice2
                 MessageBox.Show("Contact already exists");
                 return;
             }
-            AddContact(contact);
+            AddContactY(contact);
             UpdateContacts();
         }
     }
