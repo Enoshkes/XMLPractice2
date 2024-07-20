@@ -62,18 +62,13 @@ namespace XMLPractice2.Service
             doc.Save(XmlFilePath);
         }
 
-        public static ImmutableList<Contact> GetAllContacts()
-        {
-            XmlDocument doc = new();
-            doc.Load(XmlFilePath);
-
-            return doc.SelectNodes("//Contact")?
-                .Cast<XmlNode>()
+        public static ImmutableList<Contact> GetAllContacts() =>
+            XDocument.Load(XmlFilePath)
+                .Descendants("Contact")
                 .Select(node => new Contact(
-                    name: node.SelectSingleNode("Name")?.InnerText ?? string.Empty,
-                    phone: node.SelectSingleNode("Phone")?.InnerText ?? string.Empty
+                    name: node.Element("Name")?.Value ?? string.Empty,
+                    phone: node.Element("Phone")?.Value ?? string.Empty
                 ))
-                .ToImmutableList() ?? ImmutableList<Contact>.Empty;
-        }
+                .ToImmutableList() ?? [];
     }
 }
