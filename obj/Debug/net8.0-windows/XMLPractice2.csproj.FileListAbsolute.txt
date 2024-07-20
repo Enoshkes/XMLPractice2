@@ -14,3 +14,4 @@ C:\Users\enosh.tsur\source\repos\XMLPractice2\XMLPractice2\obj\Debug\net8.0-wind
 C:\Users\enosh.tsur\source\repos\XMLPractice2\XMLPractice2\obj\Debug\net8.0-windows\XMLPractice2.pdb
 C:\Users\enosh.tsur\source\repos\XMLPractice2\XMLPractice2\obj\Debug\net8.0-windows\XMLPractice2.genruntimeconfig.cache
 C:\Users\enosh.tsur\source\repos\XMLPractice2\XMLPractice2\obj\Debug\net8.0-windows\ref\XMLPractice2.dll
+C:\Users\enosh.tsur\source\repos\XMLPractice2\XMLPractice2\obj\Debug\net8.0-windows\XMLPractice2.sourcelink.json

@@ -1,4 +1,5 @@
 using System.Collections.Immutable;
+using System.Xml.Linq;
 using XMLPractice2.Model;
 using static XMLPractice2.Service.ContactService;
 
@@ -9,7 +10,7 @@ namespace XMLPractice2
         public Form1()
         {
             InitializeComponent();
-            CreateXmlFileIfNotExists();
+            CreateXmlFileIfNotExistsParse();
             UpdateContacts();
         }
 
@@ -20,7 +21,7 @@ namespace XMLPractice2
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void AddContactClickHandler(object sender, EventArgs e)

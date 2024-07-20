@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
+using System.Xml.Linq;
 using XMLPractice2.Model;
 using static XMLPractice2.Configuration.AppConfiguration;
 
@@ -12,14 +13,26 @@ namespace XMLPractice2.Service
 {
     internal static class ContactService
     {
-        public static void CreateXmlFileIfNotExists()
+        public static void CreateXmlFileIfNotExistsAppend()
         {
             if (!File.Exists(XmlFilePath))
             {
-                XmlDocument doc = new();
-                XmlNode rootNode = doc.CreateElement("Contacts");
-                doc.AppendChild(rootNode);
-                doc.Save(XmlFilePath);
+                XmlDocument document = new();
+                XmlNode rootNode = document.CreateElement("Contacts");
+                document.AppendChild(rootNode);
+                document.Save(XmlFilePath);
+            }
+        }
+
+        public static void CreateXmlFileIfNotExistsParse()
+        {
+            if (!File.Exists(XmlFilePath))
+            {
+                XDocument document = XDocument.Parse(@"
+                    <Contacts>
+                    </Contacts>
+                ");
+                document.Save(XmlFilePath);
             }
         }
 
